@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+      <item
+        android:id="@+id/menu_faclist"
+        android:title="@string/mainmenu_faculties"
+        android:icon="@android:drawable/ic_menu_agenda"/>
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/settings_title"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+    
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/about_android"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+    
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="@string/mainmenu_refresh"
+        android:icon="@android:drawable/ic_menu_rotate"/>
+    
+
+</menu>

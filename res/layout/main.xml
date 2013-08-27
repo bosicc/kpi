@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Server URL"></TextView>
+    <EditText android:id="@+id/editText1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textUri" android:text="http://www.bosicc.com/test/test.php">
+        <requestFocus></requestFocus>
+    </EditText>
+    <AnalogClock android:id="@+id/analogClock1" android:layout_height="wrap_content" android:layout_width="fill_parent"></AnalogClock>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnSend" android:text="Send Json"></Button>
+    </LinearLayout>
+</LinearLayout>

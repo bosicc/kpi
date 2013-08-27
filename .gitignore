@@ -1,0 +1,38 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+out/
+build/
+proguard_logs/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# ==== Eclipse project files ====
+.classpath
+.project
+.settings
+.metadata
+
+# === Gradle files ====
+Cluedologs/build/
+.gradle
+build.gradle
+
+# === Android Studio ===
+.idea
+spotflux-android.iml
+

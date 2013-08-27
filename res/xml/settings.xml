@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory>
+         <com.kpi.android.content.MultiSelectListPreference
+                   android:title="@string/settings_rssFeeds"
+                   android:summary="@string/settings_rssSumm"
+                   android:key="rssFeeds"
+                   android:defaultValue="http://kpi.ua/rss.xml"
+                   android:entries="@array/rssFeed_names"
+                   android:entryValues="@array/rssFeed_val" 
+                  />
+        
+        <!--<CheckBoxPreference
+                    android:key="SeekBarsEnable"
+                    android:defaultValue="true"
+                    android:title="SeekBarsEnable" 
+                    android:summary="Turn on/off seekbars"/>
+        <EditTextPreference
+                android:title="INT"
+                android:summary="enterIntHare"
+                android:key="intEdit"
+                android:defaultValue="123"
+                />>-->
+    </PreferenceCategory>
+</PreferenceScreen>

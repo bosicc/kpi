@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="42dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="10:10"
+        android:gravity="center|center_vertical"/>
+
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="42dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/start"
+        android:text="10:15"
+        android:gravity="center|center_vertical"/>
+    
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/teacher"
+        android:layout_toRightOf="@+id/end"
+        android:text="Математика"
+        android:gravity="center|center_vertical"/>
+
+    <TextView
+        android:id="@+id/teacher"
+        android:layout_width="96dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/place"
+        android:text="Препод А.А."
+        android:gravity="center|center_vertical"/>
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="56dp"
+        android:layout_height="36dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="206-12"
+        android:gravity="center|center_vertical"/>
+
+</RelativeLayout>

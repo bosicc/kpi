@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- =====================================================================-->
+    <!-- ================= About ========================================== -->
+    <!-- =====================================================================-->
+    
+	<string name="about_android">Про програму Android KPI</string>
+	<string name="About">Android KPI</string>
+	<string name="About_ver">Версія 1.0.2</string>
+	<string name="About_text">Розробники Android KPI:
+	</string>
+	<string name="goToURL">Читати далі</string>
+	
+	<string name="Dev_name_prat">Борис Працюк</string>
+	<string name="Dev_name_serg">Павло Сергієнко</string>
+    <string name="Dev_name_enot">Андрій Тараканов</string>
+    <string name="Dev_name_tere">Олександр Терещук</string>
+    <string name="Dev_name_avilov">Олексій Авілов</string>
+    
+    <string name="Dev_info_prat_1">Керівник проекту і групи фахівців.</string>
+    <string name="Dev_info_prat_2">Голова мобільної групи в biowave.org.ua</string>
+    <string name="Dev_info_prat_3">Веб сайт: www.bosicc.com</string>
+    <string name="Dev_info_prat_4"></string>
+    
+    <string name="Dev_info_serg_1">Створення та налаштування вікна Про нас. Списки факультетів та кафедр</string>
+    <string name="Dev_info_serg_2">Надіслати Email: paulsergienko@gmail.com</string>
+    
+    <string name="Dev_info_enot">Перспективний розробник</string>
+    
+    <string name="Dev_info_tere">Крутий перець</string>
+    
+    <string name="Dev_info_avilov_1">Создание баз данных. e-mail: lesha.avilov@gmail.com</string>
+    <string name="Dev_info_avilov_2">Надіслати Email lesha.avilov@gmail.com</string>
+    
+	
+	<string name="common_loading">Завантаження з </string>
+    <string name="common_noResults">Пошук не дав результатів</string>
+    <string name="common_retryData">Повторне звернення до даних...</string>
+    <string name="common_dataError">Неможливо завантажити дані</string>
+    <string name="common_error">Виникла помилка. Приносимо свої вибачення...</string>
+    <string name="common_retry_request">Дані недоступні. Натисніть, щоб завантажити знову</string>
+    <string name="common_retry">Натисніть, щоб завантажити знову</string>
+    <string name="common_serverUnavailable">Послуга недоступна, будь ласка, повторіть свій запит пізніше.</string>
+    <string name="common_locationUnavailable">Неможливо відобразити поточне місце розташування.</string>
+    <string name="common_nothingToShow">Немає новин. Оберіть звідки завантажувати новини у налаштуваннях</string>
+    
+    <!-- =====================================================================-->
+    <!-- ================= Google Map ========================================== -->
+    <!-- =====================================================================-->
+    <string name="googlemap_map">Мапа</string>
+    <string name="googlemap_sattelite">Супутник</string>
+    <string name="googlemap_filter">Будівлі</string>
+	
+    <!-- =====================================================================-->
+    <!-- ================= Settings ========================================== -->
+    <!-- =====================================================================-->
+    
+	<string name="settings_title">Налаштування</string>
+	<string name="settings_category_info">Налаштування профілю</string>
+	<string name="settings_category_upload">Параметри завантаження</string>
+	<string name="settings_category_application">Програма</string>
+	<string name="settings_category_logs">Логи</string>
+	<string name="settings_rssFeeds">RSS Новини</string>
+    <string name="settings_rssSumm">Оберіть новини, які бажаете читати</string>
+
+    <!-- =====================================================================-->
+    <!-- ================= Main Menu ========================================== -->
+    <!-- =====================================================================-->
+    
+	<string name="mainmenu_map">Мапа КПІ</string>
+	<string name="mainmenu_google_map">Google мапа</string>
+	<string name="mainmenu_faculties">Факультети і Кафедри</string>
+	<string name="mainmenu_settings">Налаштування</string>
+    <string name="mainmenu_refresh">Оновити</string>
+  
+    <!-- =====================================================================-->
+    <!-- ================= Tabs ========================================== -->
+    <!-- =====================================================================-->
+    <string name="tab_schedule">Розклад</string>
+    <string name="tab_news">Новини</string>
+    <string name="tab_faculties">Факультети</string>
+    <string name="tab_map">Мапа</string>
+    <string name="tab_google_map">Google Мапа</string>
+
+    <!-- =====================================================================-->
+    <!-- ================= XML Parser ======================================== -->
+    <!-- =====================================================================-->
+    
+	<string name="android_sax">Android SAX</string>
+	<string name="sax">Classic SAX</string>
+	<string name="dom">DOM</string>
+	<string name="pull">XML Pull</string>
+
+    
+    <string name="facdep_list_action1">Відвідати сайт</string>
+    <string name="facdep_list_action2">Показати на мапі</string>
+
+</resources>

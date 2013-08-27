@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/main_activity_container"
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent" 
+      android:gravity="center"
+      android:orientation="vertical"
+      >
+      
+   <WebView
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent" 
+      android:id="@+id/webView"
+      />
+ 
+  <!-- Status bar -->
+  <include layout="@layout/status_bar" />
+
+</LinearLayout>

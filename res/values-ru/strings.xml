@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+     <!-- =====================================================================-->
+    <!-- ================= About ========================================== -->
+    <!-- =====================================================================-->
+    
+	<string name="about_android">О программе Android KPI</string>
+	<string name="About">Android KPI</string>
+	<string name="About_ver">Версия 1.0.2</string>
+	<string name="About_text">Разработчики Android KPI:
+	</string>
+	<string name="goToURL">Читать далее</string>
+	
+	<string name="Dev_name_prat">Борис Працюк</string>
+	<string name="Dev_name_serg">Павел Сергиенко</string>
+    <string name="Dev_name_enot">Андрей Тараканов</string>
+    <string name="Dev_name_tere">Александр Терещук</string>
+    <string name="Dev_name_avilov">Алексей Авилов</string>
+    
+    <string name="Dev_info_prat_1">Руководитель проекта и группы специалистов.</string>
+    <string name="Dev_info_prat_2">Глава мобильной группы в biowave.org.ua</string>
+    <string name="Dev_info_prat_3">Веб сайт: www.bosicc.com</string>
+    <string name="Dev_info_prat_4">Послать Email</string>
+    
+    <string name="Dev_info_serg_1">Создание и настройка окна О нас. Списки факультетов и кафедр</string>
+    <string name="Dev_info_serg_2">e-mail: paulsergienko@gmail.com</string>
+    
+    <string name="Dev_info_enot">Переспективный парень</string>
+    
+    <string name="Dev_info_tere">Крутой перец</string>
+    
+    <string name="Dev_info_avilov_1">Создание баз данных. e-mail: lesha.avilov@gmail.com</string>
+    <string name="Dev_info_avilov_2">Послать Email: lesha.avilov@gmail.com</string>
+    
+        
+	
+	<string name="common_loading">Загрузка с </string>
+    <string name="common_noResults">Поиск не дал результатов</string>
+    <string name="common_retryData">Повторное обращение к данным...</string>
+    <string name="common_dataError">Невозможно загрузить данные</string>
+    <string name="common_error">Возникла ошибка. Приносим свои извинения...</string>
+    <string name="common_retry_request">Данные недоступны. Нажмите, чтобы загрузить снова</string>
+    <string name="common_retry">Нажмите, чтобы загрузить снова</string>
+    <string name="common_serverUnavailable">Услуга не доступна, пажалуйста, повторите свой запрос позже.</string>
+    <string name="common_locationUnavailable">Невозможно отобразить текущее местоположение.</string>
+    <string name="common_nothingToShow">Нету новостей. Укажите источник новостей в настройках.</string>
+    
+    <!-- =====================================================================-->
+    <!-- ================= Google Map ========================================== -->
+    <!-- =====================================================================-->
+    <string name="googlemap_map">Карта</string>
+    <string name="googlemap_sattelite">Спутник</string>
+    <string name="googlemap_filter">Объекты</string>
+	
+    <!-- =====================================================================-->
+    <!-- ================= Settings ========================================== -->
+    <!-- =====================================================================-->
+    
+	<string name="settings_title">Настройки</string>
+	<string name="settings_category_info">Настройки профиля</string>
+	<string name="settings_category_upload">Параметры загрузки</string>
+	<string name="settings_category_application">Приложение</string>
+	<string name="settings_category_logs">Логи</string>
+	<string name="settings_rssFeeds">RSS Ленты</string>
+    <string name="settings_rssSumm">Выберите новости, которые хотите читать</string>
+
+    <!-- =====================================================================-->
+    <!-- ================= Main Menu ========================================== -->
+    <!-- =====================================================================-->
+    
+	<string name="mainmenu_map">Карта КПИ</string>
+	<string name="mainmenu_google_map">Google Карта</string>
+	<string name="mainmenu_faculties">Факультеты и Кафедры</string>
+	<string name="mainmenu_settings">Настройки</string>
+    <string name="mainmenu_refresh">Обновить</string>
+    
+    <!-- =====================================================================-->
+    <!-- ================= Tabs ========================================== -->
+    <!-- =====================================================================-->
+    <string name="tab_schedule">Расписание</string>
+    <string name="tab_news">Новости</string>
+    <string name="tab_faculties">Факультеты</string>
+    <string name="tab_map">Карта</string>
+    <string name="tab_google_map">Google Карта</string>
+
+    <!-- =====================================================================-->
+    <!-- ================= XML Parser ======================================== -->
+    <!-- =====================================================================-->
+    
+	<string name="android_sax">Android SAX</string>
+	<string name="sax">Classic SAX</string>
+	<string name="dom">DOM</string>
+	<string name="pull">XML Pull</string>
+
+    
+
+    <string name="facdep_list_action1">Посетить сайт</string>
+    <string name="facdep_list_action2">Показать на Карте</string>
+</resources>

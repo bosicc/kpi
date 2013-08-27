@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">kpi.ua</string>
+    
+    <!-- =====================================================================-->
+    <!-- ================= About ========================================== -->
+    <!-- =====================================================================-->
+	<string name="about_android">About Android KPI</string>
+	<string name="About">NTUU KPI</string>
+	<string name="About_ver">version 1.0.2</string>
+    <string name="About_text">Android KPI developers:</string>
+    <string name="goToURL">Read more</string>
+    <string name="Dev_name_prat">Borys Pratsiuk</string>
+	<string name="Dev_name_serg">Paul Sergienko</string>
+    <string name="Dev_name_enot">enot</string>
+    <string name="Dev_name_tere">Olexandr Tereshchuk</string>
+    <string name="Dev_name_avilov">Alexei Avilov</string>
+    
+    <string name="Dev_info_prat_1">Project manager and team lead.</string>
+    <string name="Dev_info_prat_2">Head of Modile group at biowave.org.ua</string>
+    <string name="Dev_info_prat_3">Web site: www.bosicc.com</string>
+    <string name="Dev_info_prat_4">Send Email</string>
+    
+    <string name="Dev_info_serg_1">Creating and Custumizing About window. Faculties and departments lists activities.</string>
+    <string name="Dev_info_serg_2">Send Email: paulsergienko@gmail.com</string>
+    
+    <string name="Dev_info_enot">Google maps develope</string>
+    
+    <string name="Dev_info_tere">News reader</string>
+    
+    <string name="Dev_info_avilov_1">Database creating</string>
+    <string name="Dev_info_avilov_2">Send Email: lesha.avilov@gmail.com</string>
+    
+    <string name="facdep_list_action1">Visit Website</string>
+    <string name="facdep_list_action2">Show On Map</string>
+    <string name="facdep_list_action3">Close</string>
+    
+        
+        
+    
+    <string name="common_loading">Loading from </string>
+    <string name="common_noResults">No results available</string>
+    <string name="common_retryData">Retrying data...</string>
+    <string name="common_dataError">Can\'t load news</string>
+    <string name="common_error">Error occurs. We are so sorry...</string>
+    <string name="common_retry_request">Data is unavailable. Click to try again</string>
+    <string name="common_retry">Click to try again</string>
+    <string name="common_serverUnavailable">Service is unavailable, please try your request later.</string>
+    <string name="common_locationUnavailable">Unable to find current location.</string>
+    <string name="common_nothingToShow">No news to display. Set RSS feeds in Settings.</string>
+    
+    <!-- =====================================================================-->
+    <!-- ================= Tabs ========================================== -->
+    <!-- =====================================================================-->
+    <string name="tab_schedule">Schedule</string>
+    <string name="tab_news">News</string>
+    <string name="tab_faculties">Faculties</string>
+    <string name="tab_map">Map</string>
+    <string name="tab_google_map">Google Map</string>
+    
+    <!-- =====================================================================-->
+    <!-- ================= Google Map ========================================== -->
+    <!-- =====================================================================-->
+    <string name="googlemap_map">Map</string>
+    <string name="googlemap_sattelite">Sattelite</string>
+    <string name="googlemap_filter">Buildings</string>
+
+       
+    
+    <!-- =====================================================================-->
+    <!-- ================= Settings ========================================== -->
+    <!-- =====================================================================-->
+    <string name="settings_title">Settings</string>
+    <string name="settings_category_info">Acount information</string>
+    <string name="settings_category_upload">Upload parameters</string>
+    <string name="settings_category_application">Application</string>
+    <string name="settings_category_logs">Logs</string>
+    <string name="settings_rssFeeds">RSS Feeds</string>
+    <string name="settings_rssSumm">Choose news that u want to read</string>
+    
+    <!-- =====================================================================-->
+    <!-- ================= Main Menu ========================================== -->
+    <!-- =====================================================================-->
+    <string name="mainmenu_map">Map</string>
+    <string name="mainmenu_google_map">Google Map</string>
+    <string name="mainmenu_faculties">Faculties and Departments</string>
+    <string name="mainmenu_settings">Settings</string>
+    <string name="mainmenu_refresh">Refresh</string>
+    
+    <!-- =====================================================================-->
+    <!-- ================= XML Parser ======================================== -->
+    <!-- =====================================================================-->
+    <string name="android_sax">Android SAX</string>
+    <string name="sax">Classic SAX</string>
+    <string name="dom">DOM</string>
+    <string name="pull">XML Pull</string>
+   
+    
+    <!-- =====================================================================-->
+    <!-- =================  Shedule  ======================================== -->
+    <!-- =====================================================================-->
+    
+    <string name="mail_page_now">Now is:</string>
+    <string name="mail_page_break">Break</string>
+    <string name="mail_page_pair">Pair</string>
+    <string name="mail_page_shedule">Schedule</string>
+    <string name="mail_page_edit">Edit</string>
+	<string name="mail_page_morning">Morning</string>
+	<string name="mail_page_freeTime">Free time</string>
+	
+	<string name="mail_page_beforeEndPair">Before end of the pair</string>
+	<string name="mail_page_beforeEndBreak">Before end of the break</string>
+	<string name="mail_page_beforeStart">Before start of the lessons</string>
+	<string name="mail_page_finish">There are no lessons for today</string>
+	
+	<string name="mail_page_sheduleOn">Schedule on </string>
+	
+	<string name="mail_page_how_short">h</string>
+	<string name="mail_page_min_short">m</string>
+	<string name="mail_page_sec_short">s</string>
+	  
+   	<string name="shed_click_edit">Edit</string>
+    <string name="shed_click_delete">Delete</string>
+    <string name="shed_click_show">Show on map</string>
+    <string name="shed_click_cancel">Cancel</string>
+    
+    <string name="shed_edit_title">Editing</string>
+    <string name="shed_edit_start">Start time</string>
+    <string name="shed_edit_end">End time</string>
+    <string name="shed_edit_name">Event name</string>
+    <string name="shed_edit_teacher">Teacher</string>
+    <string name="shed_edit_place">Place</string>
+    
+    <string name="shed_edit_isWindow">Window</string>
+    <string name="shed_edit_secondWeek">Same on second week</string>
+    <string name="shed_edit_shortBreak">5-minutes break</string>
+    
+    <string name="shed_how_chDay">Change day</string>
+    <string name="shed_how_add">Add raw</string>
+    
+    <string name="alert_invalid_startFormat">Start time must be in format HH:MM</string>
+    <string name="alert_invalid_enFormat">End time must be in format HH:MM</string>
+    <string name="alert_invalid_placeFormat">Place must be in format Auditory:Corpus</string>
+    
+    <string name="ok">OK</string>
+</resources>

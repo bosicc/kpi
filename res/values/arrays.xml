@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="rssFeed_names">
+		<item>kpi.ua</item>
+		<item>student</item>
+		<item>IEEE SB</item>
+		<item>SSA</item>
+	</string-array>
+	<string-array name="rssFeed_val">
+	   	<item>http://kpi.ua/rss.xml</item>
+	   	<item>http://feeds.feedburner.com/kpi/student</item>
+		<item>http://ieeesb.kpi.ua/feed/</item>
+		<item>http://ssa.org.ua/rss</item>
+	</string-array>
+	<string-array name="rssFeed_colors">
+	   	<item>@color/news_kpi</item>
+	    <item>@color/news_stydrada</item>
+	    <item>@color/news_ieeesb</item>
+	    <item>@color/news_ssa</item>
+	</string-array>
+	   
+	<string-array name="day_short">
+		<item>mon</item>
+		<item>tue</item>
+		<item>wed</item>
+		<item>thu</item>
+		<item>fri</item>
+		<item>sat</item>
+		<item>sun</item>
+	</string-array>
+	<string-array name="day_long">
+		<item>Monday</item>
+		<item>Tuesday</item>
+		<item>Wednesday</item>
+		<item>Thursday</item>
+		<item>Friday</item>
+		<item>Saturday</item>
+		<item>Sunday</item>
+	</string-array>
+	<string-array name="week_name">
+		<item>First week</item>
+		<item>Second week</item>
+	</string-array>
+	
+	<string-array name="googlemap_buildings">
+		<item>Faculties</item>
+		<item>Hostel</item>
+		<item>Food</item>
+		<item>Print</item>
+		<item>Sport</item>
+	</string-array>
+	
+	<string-array name="faculty">
+		<item>&lt;b>[IASA]&lt;/b> Institute of Applied System Analysis </item>
+		<item>&lt;b>[ESEMI]&lt;/b> Energy Saving and Energy Management Institute</item>
+		<item>&lt;b>[IME]&lt;/b> Institute of Mechanical Engineering</item>
+		<item>&lt;b>[IPT]&lt;/b> Institute of Physics and Technology</item>
+		<item>&lt;b>[IPP]&lt;/b> Institute of Publishing and Printing</item>
+		<item>&lt;b>[ITS]&lt;/b> Institute of Telecommunication Systems</item>	
+		<item>&lt;b>[MITI]&lt;/b> Military Institute of Telecommunications and Information</item>
+		<item>&lt;b>[ISCIP]&lt;/b> Institute of Special Communications and Information Protection</item>
+		<item>&lt;b>[CASS]&lt;/b> College of Aircraft and Space Systems</item>
+		<item>&lt;b>[CAM]&lt;/b> College of Applied Mathematics</item>
+		<item>&lt;b>[CBB]&lt;/b> College of Biotechnology and Bioengineering</item>
+		<item>&lt;b>[CCE]&lt;/b> College of Chemical Engineering</item>
+		<item>&lt;b>[CCT]&lt;/b> College of Chemical Technology</item>
+		<item>&lt;b>[CEPEA]&lt;/b> College of Electric Power Engineering and Automation</item>
+		<item>&lt;b>[FEL]&lt;/b> College of Electronics</item>
+		<item>&lt;b>[CHPE]&lt;/b> College of Heat Power Engineering</item>
+		<item>&lt;b>[CICS]&lt;/b>College of Informatics and Computer Science</item>
+		<item>&lt;b>[CIDE]&lt;/b> College of Instrument Design and Engineering</item>
+		<item>&lt;b>[CL]&lt;/b> College of Linguistics</item>
+		<item>&lt;b>[CMM]&lt;/b> College of Management and Marketing</item>
+		<item>&lt;b>[ICME]&lt;/b> Intercollegiate College of Medical Engineering</item>
+		<item>&lt;b>[CPE]&lt;/b> College of Physics and Engineering</item>
+		<item>&lt;b>[CPM]&lt;/b> College of Physics and Mathematics</item>
+		<item>&lt;b>[CRE]&lt;/b> College of Radio Engineering</item>
+		<item>&lt;b>[CSSL]&lt;/b> College of Social Sciences and Law</item>
+		<item>&lt;b>[WF]&lt;/b> Welding Faculty</item>
+		<item>&lt;b>[JFME]&lt;/b> Joint Faculty of Mechanical Engineering</item>
+	</string-array>
+
+	<string-array name="iasa_dep">
+		<item>Department of Mathematical Methods in System Analysis</item>
+		<item>Department of System Design</item>
+	</string-array>
+
+	<string-array name="esem_dep">
+		<item>Department of Power Supply</item>
+		<item>Department of Heat Engineering and Energy Saving</item>
+		<item>Department of Ecological Engineering</item>
+		<item>Department of Geo Construction and Mining Technologies</item>
+		<item>Department of Automated Control of Electrical Complexes</item>
+		<item>Department of Electromechanical Energy-Intensive Equipment</item>
+		<item>Department of Labour, Industrial and Civil Security</item>
+	</string-array>
+
+	<string-array name="ime_dep">
+		<item>Department of Dynamics and Resistibility of Materials</item>
+		<item>Department of Mechanical Engineering Technologies</item>
+		<item>Department of Machine Tools and Machinery Design</item>
+		<item>Department of Tools Manufacturing</item>
+		<item>Department of Mechanics for Materials Plasticity and Resource-Saving Processes</item>
+		<item>Department of Laser Technology for Machine Engineering and Materials Science</item>
+		<item>Department of Applied Hydro-Air Mechanics and Mechanotronics</item>
+		<item>Department of Applied Mechanics</item>
+	</string-array>
+
+	<string-array name="ipt_dep">
+		<item>Department of Applied Physics</item>
+		<item>Department of Information Security</item>
+		<item>Department of Mathematical Methods of information security</item>
+		<item>Department of Physical and technical protection of information</item>
+	</string-array>
+
+	<string-array name="ipp_dep">
+		<item>Department of polygraph machines and units of production</item>
+		<item>Department of Printing Technology Production</item>
+		<item>Department of publishing and editing</item>
+		<item>Department of Organization of publishing, printing and book distribution</item>
+		<item>Department of graphics</item>
+		<item>Department of reprographics</item>
+	</string-array>
+
+	<string-array name="its_dep">
+		<item>Department of telecommunications</item>
+		<item>Department of Telecommunication Systems</item>
+		<item>Department of Information and Telecommunication Networks</item>
+	</string-array>
+	
+		<string-array name="miti_dep">
+		<item>Department of Telecommunication Systems and Networks</item>
+		<item>Faculty of Information Technology in Control Systems</item>
+		<item>Means of military communications faculty</item>
+		<item>Faculty of Military training</item>
+		<item>Department of contract specialist training</item>
+		<item>Research Center of Communication and Information</item>
+	</string-array>
+	
+		<string-array name="iscip_dep">
+		<item>Special department number 1, "Application of cryptographic and technical protection of information"</item>
+		<item>Special department № 2 "Office and specialized tactical training"</item>
+		<item>Special department № 3 "Application of Special Telecommunication Systems"</item>
+		<item>Special Department № 4 "Theoretical Foundations of operation of special telecommunication systems"</item>
+		<item>Special chair number 5, "Application of special automated information systems and technologies"</item>
+	</string-array>
+
+	<string-array name="cass_dep">
+		<item>Department of Experimental Research Automation</item>
+		<item>Department of Information and Measurement Devices</item>
+		<item>Department of Theoretical Mechanics</item>
+		<item>Department of Aircraft Control Devices and Systems</item>
+	</string-array>
+
+	<string-array name="cam_dep">
+		<item>Department of Applied Mathematics</item>
+		<item>Department of Computer Systems Software</item>
+		<item>Department of specialized computer systems</item>
+	</string-array>
+
+	<string-array name="cbb_dep">
+		<item>Department of Bioengineering</item>
+		<item>Department of Industrial Biotechnology</item>
+		<item>Department of Ecological Biotechnology and Bioenergetics</item>
+		<item>Department of Bioinformatics</item>
+	</string-array>
+
+	<string-array name="cce_dep">
+		<item>Department of Chemical, Polymer and Silicate Mechanical Engineering</item>
+		<item>Department of Control Systems in Chemical Production</item>
+		<item>Department of Machines and Devices for Chemical and Oil Processing Production</item>
+		<item>Department of Ecology and Plant Polymers Technology</item>
+	</string-array>
+
+	<string-array name="cct_dep">
+		<item>Department of Organic Chemistry and Organic Compounds Technology</item>
+		<item>Department of Physical Chemistry</item>
+		<item>Department ofChemical Technology of Composite Materials</item>
+		<item>Department of Cybernetics of Chemical and Technological Processes</item>
+		<item>Department of Inorganic Compounds and General Chemical Technology</item>
+		<item>Department of General and Inorganic Chemistry</item>
+		<item>Department of Chemical Technology of Ceramics and Glass</item>
+		<item>Department of Electrochemical Productions Technology</item>
+	</string-array>
+
+	<string-array name="cepea_dep">
+		<item>Department of Power Plants</item>
+		<item>Department of Electric Networks and Systems</item>
+		<item>Department of High-Voltage Electrophysics and Engineering</item>
+		<item>Department of Power Grid Automatic Control</item>
+		<item>Department of Automatic Control of Electrical Mechanic Systems and Electric Drive</item>
+		<item>Department of Electrical Mechanics</item>
+		<item>Department of Renewable Energy Sources</item>
+		<item>Department of Theoretical Electrical Engineering</item>
+	</string-array>
+
+	<string-array name="ce_dep">
+		<item>Department of Microelectronics</item>
+		<item>Department of Electronic Devices and Equipment</item>
+		<item>Department of Industrial Electronics</item>
+		<item>Department of Physical and Biomedical Electronics</item>
+		<item>Department of Computer Electronics Design</item>
+		<item>Department of Acoustics and Electronics</item>
+		<item>Department of Phonics and Information Registration</item>
+	</string-array>
+
+	<string-array name="chpe_dep">
+		<item>Department of Theoretical and Industrial Heat Engineering</item>
+		<item>Department of Heat and Power Engineering Units for Heat and Nuclear Power Plants</item>
+		<item>Department of Nuclear Power Plantsand Engineering Thermal Physics</item>
+		<item>Department of Automation of Heat and Power Engineering Processes</item>
+		<item>Department of Computer Aided Design of Power Processes and Systems</item>
+	</string-array>
+
+	<string-array name="cics_dep">
+		<item>Department of Automatic Information Processing and Control Systems</item>
+		<item>Department of Automation and Control in Technical Systems</item>
+		<item>Department of Technical Cybernetics</item>
+		<item>Department of Computer Engineering</item>
+	</string-array>
+
+	<string-array name="cide_dep">
+		<item>Department of Instruments Design and Engineering</item>
+		<item>Department of Orientation and Navigation Instruments and Systems</item>
+		<item>Department of Scientific, Analytical and Ecological Instruments and Systems</item>
+		<item>Department of Non-Destructive Testing Instruments and Systems</item>
+		<item>Department of Instruments Manufacturing</item>
+		<item>Department of Optical and Optoelectronic Instruments</item>
+	</string-array>
+
+	<string-array name="cl_dep">
+		<item>Department of Theory, Practice and Translation in English</item>
+		<item>Department of Theory, Practice and Translation in German</item>
+		<item>Department of Theory, Practice and Translation in French</item>
+		<item>Department of English and technical direction number 1</item>
+		<item>Department of English and technical direction number 2</item>
+		<item>Department of English humanities number 3</item>
+		<item>Department of the Ukrainian language, literature and culture</item>
+	</string-array>
+
+	<string-array name="cmm_dep">
+		<item>Department of Economics and Entrepreneurship</item>
+		<item>Department of International Economics</item>
+		<item>Department of Management</item>
+		<item>Department of Industrial Marketing</item>
+		<item>Department of Mathematical Modeling of Economic Systems</item>
+		<item>Department of Theoretical and Applied Economics</item>
+	</string-array>
+
+	<string-array name="icme_dep">
+		<item>Department ofMedical Cybernetics and Telemedicine</item>
+		<item>Department of Biomedical Engineering</item>
+		<item>Department of Theory and Methodics of Sports</item>
+		<item>The Department of Physical Rehabilitation</item>
+		<item>Department of Treatment and Diagnostic Complexes</item>
+		<item>Department of Physical Education</item>
+		<item>Department of sports perfection</item>
+	</string-array>
+
+	<string-array name="cpe_dep">
+		<item>Metal Physics Department</item>
+		<item>Department of High-Temperature Materials and Powder Metallurgy</item>
+		<item>Department of Material Science and Thermal Processing</item>
+		<item>Department of Ferrous and Non-ferrous Metals Casting</item>
+		<item>Department of Physical and Chemical Theory of Metals Technology</item>
+	</string-array>
+
+	<string-array name="cpm_dep">
+		<item>Department of Classical and Experimental Physics</item>
+		<item>Department of Classical and Solid-State Physics</item>
+		<item>Department of Mathematical Analysis and Theory of Probability</item>
+		<item>Department of Differential Equations</item>
+		<item>Department of Mathematical Physics</item>
+		<item>Department of General and Theoretical Physics</item>
+		<item>Department descriptive geometry, engineering, and computer graphics</item>
+	</string-array>
+
+	<string-array name="cre_dep">
+		<item>Department of Radio Engineering Devices and Systems</item>
+		<item>Department of Radio Engineering Theory</item>
+		<item>Department of Radio Reception and Signals Processing</item>
+		<item>Department of Radio Equipment Design and Manufacturing</item>
+	</string-array>
+
+	<string-array name="cssl_dep">
+		<item>Department of Political Science, Social Sciences and Social Work</item>
+		<item>Department of State Law; Department of Business and Criminal Law</item>
+		<item>Department of Procedural Law; Department of Philosophy</item>
+		<item>Department of Psychology and Pedagogy</item>
+		<item>Management of Higher Educational Establishment</item>
+		<item>Department of Psychology and Pedagogy</item>
+		<item>Department of History</item>
+	</string-array>
+
+	<string-array name="wf_dep">
+		<item>Department of Welding Production</item>
+		<item>Department of Welding Industrial Systems</item>
+		<item>Department of Surface Engineering</item>
+	</string-array>
+	
+		<string-array name="jfme_dep">
+	</string-array>
+
+	<string-array name="references_faculties">
+		<item>http://ipsa.edu.ua</item>
+		<item>http://ntu-kpi.kiev.ua/iee</item>
+		<item>http://www.ntu-kpi.kiev.ua/mmi</item>
+		<item>http://www.ntu-kpi.kiev.ua/fti</item>
+		<item>http://www.ntu-kpi.kiev.ua/vpi</item>
+		<item>http://www.its.ntu-kpi.kiev.ua</item>
+		<item>http://viti.kpi.ua</item>
+		<item>http://ru.kpi.ua/institute/isszi</item>
+		<item>http://www.faks.ntu-kpi.kiev.ua</item>
+		<item>http://fpm.ntu-kpi.kiev.ua</item>
+		<item>http://www.biotech.ntu-kpi.kiev.ua</item>
+		<item>http://www.ntu-kpi.kiev.ua/kpi_ixf</item>
+		<item>http://www.ntu-kpi.kiev.ua/kpi_xtf</item>
+		<item>http://www.ntu-kpi.kiev.ua/fea</item>
+		<item>http://fel.ntu-kpi.kiev.ua</item>
+		<item>http://www.tef.ntu-kpi.kiev.ua</item>
+		<item>http://kpi.ua/fiot</item>
+		<item>http://www.ntu-kpi.kiev.ua/pbf</item>
+		<item>http://www.fl.ntu-kpi.kiev.ua</item>
+		<item>http://www.ntu-kpi.kiev.ua/kpi_fmm</item>
+		<item>http://kpi.ua/kpi_mmif</item>
+		<item>http://iff-kpi.kiev.ua</item>
+		<item>http://www.ntu-kpi.kiev.ua/fmf</item>
+		<item>http://rtf.ntu-kpi.kiev.ua</item>
+		<item>http://fs.ntu-kpi.kiev.ua</item>
+		<item>http://inter.weld.kpi.ua</item>
+		<item>http://gfm.kpi.ua</item>
+	</string-array>
+	
+</resources>

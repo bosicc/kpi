@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+     <!-- eNote 
+    	 Сертификат: F4:6B:9B:59:59:D4:05:FF:08:0A:B2:3F:6C:E6:2E:EF
+    	 Ключ      : 0j3pTqbo6gycKRrzV3rOo48KXU94-zn4de4KsRA
+    	 если не работает на вашем емуляторе, то сохраните сдесь мой apiKey и создайте свой
+    	 по примеру http://mobiforge.com/developing/story/using-google-maps-android-->
+    	 
+    <!-- bosicc 
+    	 Сертификат: 35:CC:B3:A6:E7:0D:24:20:DE:2E:E3:E1:7C:A7:12:4B
+    	 Ключ      : 0aPeqR2V3Q4lufOCIZpdVRyEJsfZ92P5d8MRm6Q
+   	 -->
+   	 
+   	<!-- Final Release 
+    	 Ключ      : 0aPeqR2V3Q4lBoxicQU3oHgYyWKyy79QgkZoxiQ
+   	 -->
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:apiKey="0aPeqR2V3Q4lBoxicQU3oHgYyWKyy79QgkZoxiQ"
+    />
+    
+    <Button
+        android:id="@+id/btnMode"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/googlemap_map" 
+        android:layout_marginRight="10dp" 
+        android:layout_marginTop="10dp" 
+        android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GoogleMapButton"/>
+    
+        <Button
+        android:id="@+id/btnFilter"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/btnMode"
+        android:layout_marginLeft="10dp"
+        android:text="@string/googlemap_filter" 
+        style="@style/GoogleMapButton" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        
+   
+</RelativeLayout>

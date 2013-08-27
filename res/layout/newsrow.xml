@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:padding="2dp" android:layout_height="?android:attr/listPreferredItemHeight">
+  
+  <TextView android:id="@+id/news_Title" 
+  	android:paddingRight="3dp" 
+  	android:text="News_text" 
+  	android:textColor="@color/news_title" 
+  	android:layout_height="wrap_content" 
+  	android:paddingLeft="3dp" 
+  	android:gravity="left|top" 
+  	android:layout_width="fill_parent" 
+  	android:layout_alignParentTop="true" 
+  	android:layout_alignParentRight="true" android:layout_toRightOf="@+id/textColor" android:layout_above="@+id/news_Source"></TextView>
+  <TextView android:layout_alignParentLeft="true" android:layout_alignBottom="@+id/news_Source" android:layout_height="fill_parent" android:layout_width="16dp" android:id="@+id/textColor" android:background="@color/news_kpi"></TextView>
+  <TextView android:id="@+id/news_Source" android:text="Sorce" android:textColor="@color/news_from" android:layout_height="wrap_content" android:paddingLeft="3dp" android:gravity="left|center_vertical" android:layout_width="wrap_content" android:textStyle="bold" android:layout_alignBaseline="@+id/news_Date" android:layout_alignBottom="@+id/news_Date" android:layout_alignLeft="@+id/news_Title"></TextView>
+
+  <TextView
+      android:id="@+id/news_Date"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"
+      android:ellipsize="middle"
+      android:gravity="right|center_vertical"
+      android:paddingRight="3dp"
+      android:text="Date"
+      android:textColor="@color/news_date"
+      android:textStyle="bold" >
+</TextView>
+  
+
+</RelativeLayout>

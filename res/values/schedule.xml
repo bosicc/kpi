@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="schedule_mon1w">
+		<item>8:30;9:15;Algebra lection;Teacher KO;125-12</item>
+		<item>9:20;10:05;Algebra lection;Teacher KO;125-12</item>
+		
+		<item>10:25;11:10;Phisycs seminar;Globko AL;310-12</item>
+		<item>11:15;12:00;Phisycs seminar;Globko AL;310-12</item>
+		
+		<item>12:20;13:05;Nanorobots lab;Robot UA;01-10</item>
+		<item>13:10;13:55;Nanorobots lab;Robot UA;01-10</item>
+		
+		<item>14:15;15:00;Biology lection;Warm OO;531-15</item>
+		<item>15:05;15:50;Biology lection;Warm OO;531-15</item>
+		
+		<item>16:10;16:55;Submaryning none;Nemo KK;120-2</item>
+		<item>17:00;17:45;Submaryning none;Nemo KK;120-2</item>
+	</string-array>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:text=""
+        android:gravity="center|center_vertical"/>"
+	
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shed_click_edit" />
+	
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shed_click_delete" />
+    
+    <Button
+        android:id="@+id/navigateToButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shed_click_show" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shed_click_cancel" />
+
+</LinearLayout>

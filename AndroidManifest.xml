@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.kpi.android"
+  android:versionCode="4"
+  android:versionName="1.0.4">
+  
+  <!-- API level -->
+  <uses-sdk android:minSdkVersion="7" />
+
+  <!-- Permissions -->
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  
+  <uses-permission android:name="android.permission.ACCESS_GPS" />
+  <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+  <uses-permission android:name="android.permission.ACCESS_CELL_ID" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.GET_TASKS" />
+
+  <!-- Application -->
+  <application
+    android:icon="@drawable/icon"
+    android:label="@string/app_name"
+    android:name=".Application">
+
+    <!-- Libraries -->
+    <uses-library android:name="com.google.android.maps" />
+
+    <!-- Activities -->
+     <activity android:name=".activity.StartupActivity"
+        android:configChanges="orientation|keyboardHidden"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        
+     </activity>
+
+    <activity
+      android:name=".activity.KPIActivity" 
+      android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+
+    <activity
+      android:name=".trash.MainMenuActivity"
+      android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+
+    <activity android:name=".activity.MapGoogleActivity"
+        android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+
+    <activity android:name=".activity.SettingsActivity"
+        android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+
+    <activity android:name=".trash.FacultyListActivity"
+        android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+
+    <activity android:name=".activity.FacDepListActivity"
+        android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+
+    <activity android:name=".activity.KpiMapActivity"
+        android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+
+    <activity
+      android:name=".activity.NewsListActivity"
+      android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+
+    <activity
+      android:name=".activity.NewsReaderActivity"
+      android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+    
+    <activity
+      android:name=".activity.WebViewActivity"
+      android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+	<activity
+      android:name=".activity.MainPageActivity"
+      android:theme="@android:style/Theme.NoTitleBar">
+    </activity>
+    
+  </application>
+</manifest>
